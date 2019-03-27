@@ -4,11 +4,17 @@ body {
 .identificacao{
     background-color: #579ff0;
     color: #fcfcfd;
+    padding: 7em 2em;
 }
 
 .identificacao h1{
     font-size: 2.5em;
+    margin-bottom: 0.7em;
     
+}
+.container{
+    padding-left: 10%;
+    Padding-right: 10%;
 }
 
 .identificacao h2{
@@ -21,6 +27,13 @@ body {
 
 header li a{
 color: #99a0b0
+}
+header li{
+    display: inline-block;
+}
+#contato li {
+    display: inline-block;
+    margin: 1em;
 }
 .escuras{
     background-color: #2b313e;
@@ -42,4 +55,8 @@ color: #99a0b0
     }
 #sobre img{
     width: 200px;
+}
+footer{
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
