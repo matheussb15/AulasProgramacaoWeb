@@ -24,10 +24,16 @@ section{
     font-size: 1.5em;
     font-weight: lighter;
 }
- Section h3{
+ section h3{
    font-size: 1.7em;
    margin:0.5em;
  }
+
+section img{
+    width: 100%;
+    margin-left: 300px;
+}
+
 header{
     border-bottom: 1px solid #2b313e;
     padding-top: 2em;
@@ -53,9 +59,21 @@ header li{
     background-color: #fcfcfc;
     color: #2b313e
 }
+
+.projetos-header{
+    float: left;
+
+}
+
+.stylesprojetos{
+    margin-left:40%;
+}
+
 .stylesprojectos li p {
     color: #ffff;
     margin-top:0.5em;
+    text-align: justify;
+    line-height:1.2;
 }
 .styleprojetos li{
     background-color: #6f768b;
