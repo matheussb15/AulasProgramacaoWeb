@@ -42,7 +42,33 @@ header li {
 
 #contato li{
     display: inline-block;
+}
+
+#contato li a{
+    display: inline-block;
     margin: 1em;
+    width: 48px;
+    height: 48px;
+    text-indent:-9999px;
+}
+
+#contato .email{
+      background-image: url("../imagens/email.png");
+}
+#contato .twitter{
+    background-image: url("../imagens/twitter.png");
+}
+#contato .facebook{
+    background-image: url("../imagens/facebook.png");
+}
+#contato .linkedin{
+    background-image: url("../imagens/linkedin.png");
+}
+#contato .github{
+    background-image: url("../imagens/github.png");
+}
+#contato .opgg{
+    background-image: url("../imagens/email.png");
 }
 
 .container{
@@ -78,7 +104,7 @@ section h3{
 }
 
 header li a {
-    color: #99a0b0
+    color: #99a0b0;
 }
 
 .escuras{
@@ -88,11 +114,15 @@ header li a {
 
 .claras{
     background-color: #fcfcfc;
-    color: #2b313e
+    color: #2b313e;
 }
 
 .projetos-header{
     float: left;
+}
+
+.projetos-header h3{
+    margin-top: 1em;
 }
 
 .styleprojetos {
