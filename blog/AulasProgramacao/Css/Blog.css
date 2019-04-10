@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Helvetica, sans-serif;
+    background-image: url("../imagens/bk.jpg")
+}
+
+a{
+    text-decoration: none;
+}
+
+section img {
+    width: 100%;
+    max-width: 300px;
+    }
+
+.rd1{
+    border-radius: 50%;
+}
+
+header{
+    border-bottom: 1px solid #ccc;
+    padding-top: 1em;
+    padding-bottom: 1em; 
+    position: fixed;
+    width: 100%;
+    height: 3em;
+}
+
+header ul{
+    text-align: right;
+}
+
+header li a{
+    color: #ffffff;
+    font-weight: inherit;
+    text-transform: uppercase;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 3em;
+}
+
+#contato li{
+    display: inline-block;
+}
+
+#contato li a{
+    display: inline-block;
+    margin: 1em;
+    width: 64px;
+    height: 64px;
+    text-indent: -999999px;
+}
+
+#contato .email{
+    background-image: url("../imagens/email.png");
+}
+
+#contato .facebook{
+    background-image: url("../imagens/face.png");
+}
+
+#contato .twitter{
+    background-image: url("../imagens/twitter.png");
+}
+
+#contato .twitch{
+    background-image: url("../imagens/tv.png");
+}
+
+#contato .instagram{
+    background-image: url("../imagens/instagram.png");
+}
+
+#contato .opgg{
+    background-image: url("../imagens/opgg.png");
+    
+}
+#contato .youtube{
+    background-image:  url("../imagens/youtube.png")
+
+}
+
+.container{
+    padding-left: 5%;
+    padding-right: 10%; 
+}
+
+section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.identificacao{
+    background-image: url("../imagens/darling2.png");
+    padding: 10em 2em 7em;
+}
+
+.identificacao h1{
+    font-size: 2.5em;
+    margin-bottom: 0.7em;
+    color:rgb(92, 50, 102);
+    font-weight: 800; 
+    font-family: Impact, fantasy;
+    margin: 5%; 
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;  
+}
+
+.identificacao h2{
+    font-size: 1.5em;
+    font-weight: lighter;
+    font-family: Impact, fantasy;
+    color:rgb(92, 50, 102);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+}
+
+section h3{
+    font-size: 1.7em;
+    margin: 0.5em;
+}
+
+.escuras{
+    background-color: rgb(47, 5, 63);
+    color: #fcfcfc;
+}
+
+.claras{
+    background-color: rgb(104, 57, 131);
+    color: #2b313e
+}
+
+.projetos-header{
+    float: left;
+    width: 30%;
+}
+
+.projetos-header h3 {
+    margin-top: 1em;
+}
+
+.styleprojetos {
+    margin-left: 40%;
+    margin-bottom: 0.4em;
+    margin-top: 2em;
+    font-weight: 400;
+}
+
+.styleprojetos li{
+    background-color:#0000007a;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 25px
+    }
+
+.styleprojetos li p{
+    color: #fff;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    text-align: justify;
+    line-height: 1.2;
+}
+
+.styleprojetos li a{
+        color: #ffffff;
+        font-size: 1.3em;
+    }
+
+#sobre p.text{
+    margin: 1em;
+    width: 50%;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+#sobre p.bio {
+    color:#fffeffcb;
+    font-size: 1.5em;
+    margin: 1em;
+    width: 50%;
+}
+
+#sobre{
+    position: relative;
+}
+
+#sobre img{
+        width: 200px;
+        position: absolute;
+        top: 2em;
+        right: 10%;
+    }
+
+footer{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+
+.bk_img{
+    background-image: url("../imagens/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+.prj-tt{
+    font-size: 1.5em;
+    color: #ffffff;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000; 
+    font-weight: initial;
+}
+.jogo{
+    font-size: 20%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000; 
+    color: white;
+
+}
